@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="cs">
+  <head>
+    <meta charset="utf-8">
+    <style>
+      .map {
+        height: 800px;
+        width: 100%;
+      }
+    </style>
+    <title>Historické mapy Prahy</title>
+  </head>
+  <body>
+    <h2>Historické mapy Prahy</h2>
+    <div>
+      <label for="mapSelector">Výběr mapy:</label>
+      <select id="mapSelector">
+        <option value="ortofoto">Ortofotomapa 1945</option>
+        <option value="plan">Plán Prahy 1944</option>
+      </select>
+    </div>
+    <div id="map" class="map"></div>
+    <script type="module" src="/main.js"></script>
+    <script type="text/javascript">
+    </script>
+  </body>
+</html>
